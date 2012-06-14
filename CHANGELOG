@@ -1,0 +1,49 @@
+callrecorder (0.0.8) unstable; urgency=low
+
+    * 0.0.8 beta
+            * Fix for Russia wrong translation (thanks Dmitry <hhrhhr@gmail.com>)
+            * Autostart bugs fixed
+
+    * 0.0.7 beta
+            * Back to use hidden folder : /home/user/MyDocs/.CallRecorder
+            * Features added : native playback, write a note
+            * Features removed : share (sorry, it don't return back until pr1.3 get fixed that bug related to hidden folder).
+
+    * 0.0.6 beta
+            * Fix some bugs related to PR1.2 (problems with hidden folder).
+            * Changed the folder from /home/user/MyDocs/.CallRecorder to /home/user/MyDocs/CallRecorder
+
+    * 0.0.5 beta
+            * Changed input device to pulseaudio
+            * Recordings files moved to MyDocs/.CallRecorder folder, Music Player will not show them anymore.
+            + Added service autostart option
+            + Added file save confirmation dialog option
+            + Added Russian translation
+            + Added Turkey translation
+
+    * 0.0.4 beta
+            + Added share feature.
+            + Added AMR codec (3GPP TS 26.073) | file extension : 3GP
+            + Added AAC codec (MPEG-1 Audio Layer 3) | file extension : MP3
+            + Record file sample changed to <PhoneNumber>_<In/Out>_<10DigitsNumber>.WAV (e.g 900_Out_0123456789.wav)
+            + Added donation link ;)
+
+    * 0.0.3 beta
+            + Record file sample changed to <PhoneNumber>_<In/Out>_<4DigitsNumber>.WAV (e.g 900_Out_0001.wav)
+            + Added channel options for audio codecs : mono/stereo
+
+    * 0.0.2 alpha
+            + Added Open/Delete menu items on the record files list
+            + Open one record file by use Music app
+            + Added fast scroll to the record files list
+            + Record file sample changed to <PhoneNumber>_<Datetime>.WAV
+            + Added two options:
+                    ++ Audio output format ()
+                    ++ Recording notification ()
+
+    * 0.0.1 alpha
+            + Basic controller UI
+            + Phone service
+            + Record service
+
+ -- Cuong Le <metacuong@gmail.com>  Thu, 22 Mar 2012 10:07:28 +0700

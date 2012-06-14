@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Call Recorder
+Exec=/usr/bin/invoker --type=m /opt/callrecorder/bin/callrecorder
+Icon=/usr/share/icons/hicolor/80x80/apps/callrecorder.png
+Categories=X-MeeGo;
+OnlyShowIn=X-MeeGo;

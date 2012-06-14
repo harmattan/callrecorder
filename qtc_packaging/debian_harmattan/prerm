@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+aegis-exec -s -u user /opt/callrecorder/bin/callrecorder remove
+
+exit 0

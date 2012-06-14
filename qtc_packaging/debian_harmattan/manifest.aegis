@@ -1,0 +1,33 @@
+<aegis>
+    <request>
+        <credential name="UID::user" />
+        <credential name="GID::users" />
+        <credential name="GRP::users" />
+        <credential name="TrackerReadAccess" />
+        <credential name="TrackerWriteAccess" />
+        <credential name="GRP::metadata-users" />
+        <for path="/opt/callrecorder/bin/callrecorder" />
+    </request>
+    <request>
+        <credential name="UID::user" />
+        <credential name="GID::users" />
+        <credential name="GRP::users" />
+        <credential name="Cellular" />
+        <for path="/opt/callrecorder/bin/callrecorder_phone_service" />
+    </request>
+    <request>
+        <credential name="UID::user" />
+        <credential name="GID::users" />
+        <credential name="GRP::users" />
+        <for path="/opt/callrecorder/bin/callrecorder_recorder_service" />
+    </request>
+    <request>
+        <credential name="UID::user" />
+        <credential name="GID::users" />
+        <credential name="GRP::users" />
+        <credential name="TrackerReadAccess" />
+        <credential name="TrackerWriteAccess" />
+        <credential name="GRP::metadata-users" />
+        <for path="/opt/callrecorder/bin/callrecorder_contact_handler" />
+    </request>
+</aegis>

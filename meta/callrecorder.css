@@ -1,0 +1,58 @@
+MLabelStyle#CallRecorderLabel {
+    font:          "Nokia Pure Text Light" light 30;
+    margin-left:  10;
+    color: #FFFFFF;
+}
+
+MLabelStyle#CallRecorderLabelLight {
+    font:          "Nokia Pure Text Bold" bold 30;
+    color: #000000;
+}
+
+#CommonHeaderPanel {
+minimum-size:      32 32;
+preferred-size:    -1 48;
+maximum-size:      -1 -1;
+background-tiles:  ;
+background-image:  meegotouch-panel-background-selected 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+MListIndexTooltip MLabelStyle {
+    color: #ffffff;
+    font: "Nokia Pure Text" light 36;
+    horizontal-alignment: left;
+    vertical-alignment: vcenter;
+}
+
+MListIndexTooltipStyle {
+    background-image: meegotouch-fast-scroll-magnifier;
+    minimum-size: -1 100px;
+    preffered-size: -1 100px;
+    maximum-size: -1 100px;
+}
+
+#CommonListItemSpinnerInverted {
+base-image-name: "spinnerinverted";
+base-image-size: $SIZE_SPINNER_DEFAULT;
+margin-top:      9;
+margin-bottom:   0;
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    3.2mm 3.2mm;
+preferred-size:  3.2mm 3.2mm;
+maximum-size:    3.2mm 3.2mm;
+}
+
+#CommonSubIcon {
+    maximum-size: 2.8mm 2.8mm;
+    minimum-size: 2.8mm 2.8mm;
+    preferred-size: 2.8mm 2.8mm;
+    margin-left : $MARGIN_XSMALL;
+    margin-right : 2.8mm;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : $MARGIN_XSMALL;
+}

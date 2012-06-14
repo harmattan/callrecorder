@@ -1,0 +1,26 @@
+tr_save_confirmation Do you want to save the record file : %1 ?
+tr_about_title About
+tr_controller_title Controller
+tr_services_start Start
+tr_services_stop Stop
+tr_services_label Manually start services
+tr_autostart_label Autostart services
+tr_autostart_enable Enable
+tr_autostart_disable Disable
+tr_audio_format Audio output format
+tr_save_option File save option
+tr_just_save Just Save
+tr_notify_save Notify after save
+tr_ask_save Ask before save
+tr_phone_banner Phone service starting
+tr_recorder_banner Recorder service starting
+tr_records_title Record Files
+tr_open Open...
+tr_delete Delete
+tr_share Share...
+tr_file_deleted The record file has been deleted.
+tr_cant_delete Can not delete the record file.
+tr_today Today
+tr_yesterday Yesterday
+tr_older Older
+tr_completed Completed
